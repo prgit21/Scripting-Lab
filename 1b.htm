@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<form>
+Choose which food do you prefer:
+  <select id="food" onchange="selectedFood()">
+    <option>Chapathi</option>
+    <option>Rice Rasam</option>
+    <option>Bisi Bele Bath</option>
+  </select>
+</form>
+
+<script>
+
+  var x = document.getElementById('food')
+  function selectedFood() {
+    var p = x.value 
+
+    alert(`selected ${p}`)
+  }
+</script>
+
+</body>
+</html>
+
